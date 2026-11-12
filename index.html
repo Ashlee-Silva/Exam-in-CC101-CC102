@@ -140,51 +140,7 @@ to achieve my goal in life.
 <li>Photo Editing using PhotoRoom</li>
 <li>Graphic Designing using Canva</li>
 </ul>
-
-<h3>MY JAVA CODE</h3>
-<li>import java.util.Scanner;<br>
-public class GuessTheWordGame { <br>
-    public static void main(String[] args) { <br>
-    <br>
-        System.out.println("GUESS THE WORD GAME"); <br>        
-<br>
-        Scanner in = new Scanner(System.in); <br>
-        String word = "MATCHA";
-        char[] guess = {'_', '_', '_', '_', '_', '_'}; <br>       
-<br>
-        while (true) { <br>
-            for (int i = 0; i < guess.length; i++) <br>
-                System.out.print(guess[i] + " "); <br>
- <br>              
-            System.out.print("\n Guess the Word: "); <br>
-            char letter = in.nextLine().toUpperCase().charAt(0); <br>
-            System.out.println(); <br><br>
-<br>           
-            boolean correct = false; <br>      
-  <br>      
-     for (int i = 0; i < word.length(); i++) { <br>
-                if (word.charAt(i) == letter) { <br>
-                    guess[i] = letter; <br>
-                    correct = true; <br>              
- <br>                  
-                } <br>
-            } <br>
-<br>
-            if (!correct) <br>
-                System.out.println("Wrong! Try again!"); <br>
-                System.out.println(); <br>
-<br>
-            if (new String(guess).equals(word)) <br>
-                break; <br>
-        } <br>
-<br>       
-        System.out.println("Correct! The Answer is MATCHA"); <br>
-        System.out.println("Thank you for playing!"); <br>
-<br>       
-        in.close(); <br>
-    } <br>
-}</li>
-
+    
 </section>
   <footer>
 <p>My Portfolio in CC101 & CC102</p>
@@ -203,7 +159,13 @@ function showPage(page) {
 
 showPage("home");
 </script>
-
+<div style="text-align:center; margin: 30px 10px; padding: 20px; background: #fff0f3; border-radius: 15px;">
+  <h2 style="margin:0;">🎮 My Project: Guess The Word Game</h2>
+  <p style="margin: 10px 0;">Java Game - Guess the hidden word!</p>
+  <a href="https://github.com/Ashlee-Silva/Exam-in-CC101-CC102/blob/main/GuessTheWordGame.java" target="_blank" style="display:inline-block; padding:12px 22px; background-color:#ff6b81; color:white; text-decoration:none; border-radius:25px; font-weight:bold;">
+    👁️ View Java Code
+  </a>
+</div>
 </body>
 </html>
 
